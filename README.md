@@ -20,4 +20,6 @@ Predict student admissions to graduate school at UCLA based on *GRE Scores*, *GP
 ## Introduction to PyTorch
 The following notebooks cover the basic introduction to PyTorch.
 ### [Part 1 - Tensors in PyTorch](Introduction_to_PyTorch/Part&#32;1&#32;-&#32;Tensors&#32;in&#32;PyTorch.ipynb)
-Tensors ae the main data structure of PyTorch. In this notebook, we'll see how to create tensors, how to do simple operations, and how tensors intereact with NumPy.
+Tensors are the main data structure of PyTorch. In this notebook, we'll see how to create tensors, how to do simple operations, and how tensors interact with NumPy.
+### [Part 2 - Neural Networks in PyTorch](Introduction_to_PyTorch/Part&#32;2&#32;-&#32;Neural&#32;Networks&#32;in&#32;PyTorch.ipynb)
+PyTorch has a nice module `nn` that provides a nice way to efficiently build large neural networks. In this notebook, we'll see how to build a neural network with 784 inputs, 256 hidden units, 10 output units and a softmax output. In this example we are building a neural network to identify text in an image. We'll use the MNIST dataset which consists of greyscale handwritten digits. Each image is 28$\times$28 pixels.
