@@ -10,7 +10,7 @@ Implementing functions that build the gradient decsent algorithm, namely:
 - `update_weight`: The function that updates the parameters with one gradient descent step.
 - `train`: Iterate the gradient descent algorithm through all the data, for a number of epochs.
 
-## Analyzing Student Data
+## [Analyzing Student Data](https://github.com/ygsingh/Udacity-Deep-Learning-with-PyTorch/blob/master/Introduction%20to%20Neural%20Networks/student-admissions/StudentAdmissions.ipynb)
 Predict student admissions to graduate school at UCLA based on *GRE Scores*, *GPA Scores*, and *Class Rank*. Implementing some of the steps in the training of the neural network, namely:
 - One-hot encoding the data
 - Scaling the data
