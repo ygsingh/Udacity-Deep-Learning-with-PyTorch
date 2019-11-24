@@ -1,5 +1,7 @@
 # Udacity-Deep-Learning-with-PyTorch
 This repo contains reference examples on how to build deep learnig models using [PyTorch](https://pytorch.org/). PyTorch is an open-source Python framework form the [Facebook AI Research](https://ai.facebook.com/) team used for develpoing deep neural networks.
+## Dependencies
+These notebooks require PyTorch v0.4 or newer, and torchvision. The easiest way to install PyTorch and torchvision locally is by following [the instructions on the PyTorch site](https://pytorch.org/get-started/locally/). Choose the stable version, your appropriate OS and Python versions, and how you'd like to install it. You'll also need to install numpy and jupyter notebooks, the newest versions of these should work fine.
 ## Implementing Gradient Descent
 Implementing functions that build the gradient decsent algorithm, namely:
 - `sigmoid`: The sigmoid activation function.
@@ -14,3 +16,8 @@ Predict student admissions to graduate school at UCLA based on *GRE Scores*, *GP
 - Scaling the data
 - Writing the backpropagation step
 - Gradient decent algorithm for training the neural network
+
+## Introduction to PyTorch
+The following notebooks cover the basic introduction to PyTorch.
+### Part 1 - Tensors in PyTorch
+Tensors ae the main data structure of PyTorch. In this notebook, we'll see how to create tensors, how to do simple operations, and how tensors intereact with NumPy.
