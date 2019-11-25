@@ -29,3 +29,5 @@ In this notebook, we'll learn about a module called **autograd** that PyTorch us
 ### [Part 4 - Fashion-MNIST](Introduction_to_PyTorch/Part&#32;4&#32;-&#32;Fashion-MNIST.ipynb)
 This notebook is a practice example for Part 1 - 3. We'll be building and training a neural network for [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) dataset. Fashion-MNIST is a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. Here's an example of how the data looks:
 <img src = Introduction_to_PyTorch/assets/fashion-mnist-sprite.png>
+### [Part 5 - Inference and Validation](Introduction_to_PyTorch/Part&#32;5&#32;-&#32;Inference&#32;and&#32;Validation.ipynb)
+In this notebook, we measure the performance of the trained model on the validation data. During training, we avoid overfitting through regularization such as **dropout**. We'll see how to perform inference and validation on Fashion-MNIST data in PyTorch.
