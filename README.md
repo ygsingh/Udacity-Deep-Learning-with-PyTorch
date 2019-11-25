@@ -31,3 +31,5 @@ This notebook is a practice example for Part 1 - 3. We'll be building and traini
 <img src = Introduction_to_PyTorch/assets/fashion-mnist-sprite.png>
 ### [Part 5 - Inference and Validation](Introduction_to_PyTorch/Part&#32;5&#32;-&#32;Inference&#32;and&#32;Validation.ipynb)
 In this notebook, we measure the performance of the trained model on the validation data. During training, we avoid overfitting through regularization such as **dropout**. We'll see how to perform inference and validation on Fashion-MNIST data in PyTorch.
+### [Part 6 - Saving and Loading Models](Introduction_to_PyTorch/Part&#32;6&#32;-&#32;Saving&#32;and&#32;Loading&#32;Models.ipynb)
+Neural network models in PyTorch can be saved by using `torch.save` and loaded by using `torch.load` functions. In this notebook, we'll see an example on how to save and load a model in PyTorch.
